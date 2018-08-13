@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="354500001fs"></ZoomEndTime>
+      <Cursor1Time time="5000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/tb_top/CLK100MHZ" type="logic">
+      <obj_property name="ElementShortName">CLK100MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK100MHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/sw" type="array">
+      <obj_property name="ElementShortName">sw[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/btn" type="array">
+      <obj_property name="ElementShortName">btn[0:0]</obj_property>
+      <obj_property name="ObjectShortName">btn[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group38" type="group">
+      <obj_property name="label">red</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_top/led3_r" type="logic">
+         <obj_property name="ElementShortName">led3_r</obj_property>
+         <obj_property name="ObjectShortName">led3_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/led2_r" type="logic">
+         <obj_property name="ElementShortName">led2_r</obj_property>
+         <obj_property name="ObjectShortName">led2_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/led1_r" type="logic">
+         <obj_property name="ElementShortName">led1_r</obj_property>
+         <obj_property name="ObjectShortName">led1_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/led0_r" type="logic">
+         <obj_property name="ElementShortName">led0_r</obj_property>
+         <obj_property name="ObjectShortName">led0_r</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group37" type="group">
+      <obj_property name="label">green</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_top/led0_g" type="logic">
+         <obj_property name="ElementShortName">led0_g</obj_property>
+         <obj_property name="ObjectShortName">led0_g</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/led1_g" type="logic">
+         <obj_property name="ElementShortName">led1_g</obj_property>
+         <obj_property name="ObjectShortName">led1_g</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/led2_g" type="logic">
+         <obj_property name="ElementShortName">led2_g</obj_property>
+         <obj_property name="ObjectShortName">led2_g</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/led3_g" type="logic">
+         <obj_property name="ElementShortName">led3_g</obj_property>
+         <obj_property name="ObjectShortName">led3_g</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_shift_reg/o_shift_reg" type="array">
+      <obj_property name="ElementShortName">o_shift_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_shift_reg[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_counter/counter" type="array">
+      <obj_property name="ElementShortName">counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_counter/limit" type="array">
+      <obj_property name="ElementShortName">limit[31:0]</obj_property>
+      <obj_property name="ObjectShortName">limit[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/u_top/u_counter/o_tick" type="logic">
+      <obj_property name="ElementShortName">o_tick</obj_property>
+      <obj_property name="ObjectShortName">o_tick</obj_property>
+   </wvobject>
+</wave_config>
